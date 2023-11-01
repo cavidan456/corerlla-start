@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+}
+
+header {
+    width: 100%;
+    height: 76px;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav>ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav>ul>li {
+    padding: 20px;
+}
+
+.headimg img {
+    height: 50px;
+}
+
+#head-sec {
+    color: #fff;
+    background-image: url(../images/home-1-slider-image-2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 700px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.head-sec-text {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
